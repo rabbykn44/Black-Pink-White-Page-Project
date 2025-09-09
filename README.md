@@ -38,7 +38,7 @@ Black-Pink-White-Page-Project/
 
 ## 👨‍💻 Author
 
-* **Your Name** – Internship Project at Battery Low Interactive Ltd
+* **Md. Rabby Khan** – Internship Project at Battery Low Interactive Ltd
 
 ---
 
@@ -48,5 +48,5 @@ Black-Pink-White-Page-Project/
 
 ---
 
-👉 Do you want me to **write this README.md into your project folder** as a ready file, so you can just push it along with the rest of your code?
+👉 Do you want me to also show you the exact command to **create this README.md file automatically in your project folder** (so you can just push it to GitHub)?
 ```
