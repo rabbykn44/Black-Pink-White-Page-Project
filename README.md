@@ -1,18 +1,4 @@
-Got it 👍 — your `README.md` is the file that describes your project on GitHub. Right now, you probably only have this line inside it:
 
-```markdown
-# Black-Pink-White-Page-Project
-```
-
-That works, but it’s very basic. You can make it look much nicer so when someone visits your repo, they understand what it’s about.
-
----
-
-## ✨ Example `README.md` for your project
-
-Here’s a template you can copy into your `README.md`:
-
-```markdown
 # Black-Pink-White-Page-Project 🎨
 
 This is a simple web project created during my internship.  
