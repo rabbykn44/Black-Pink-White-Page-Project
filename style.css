@@ -1,0 +1,182 @@
+/* ====== Base Styles ====== */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: black;
+  color: white;
+}
+
+.wrapper {
+  max-width: 960px;
+  margin: auto;
+}
+
+/* ====== Header ====== */
+header {
+  padding: 20px 0;
+}
+
+header h1 {
+  font-size: 32px;
+  margin: 0;
+}
+
+header .black {
+  color: black;
+}
+
+header .pink {
+  color: hotpink;
+}
+
+header .white {
+  color: #ccc;
+}
+
+header p {
+  font-size: 14px;
+  color: #ccc;
+}
+
+/* ====== Navigation ====== */
+nav, .menu {
+  background: #111;
+  border-top: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+}
+
+nav ul, .menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li, .menu ul li {
+  flex: 1;
+}
+
+nav ul li a, .menu ul li a {
+  display: block;
+  text-align: center;
+  padding: 15px;
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a:hover,
+nav ul .active a,
+.menu ul li.active a {
+  background: hotpink;
+  color: black;
+  font-weight: bold;
+}
+
+/* ====== Layout ====== */
+main.content {
+  display: flex;
+  margin-top: 20px;
+  gap: 20px;
+}
+
+.main-section {
+  flex: 3;
+}
+
+.sidebar {
+  flex: 1;
+  background: #000;
+  padding: 20px;
+}
+
+.clear {
+  clear: both;
+}
+
+/* ====== Headings ====== */
+h1, h2, h3, h4 {
+  color: hotpink;
+}
+
+/* ====== Lists ====== */
+.main-section ul {
+  padding-left: 20px;
+}
+
+/* ====== Contact Form ====== */
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  margin: 10px 0;
+  padding: 8px;
+  border: none;
+  border-bottom: 2px solid white;
+  background: black;
+  color: white;
+}
+
+.contact-form button {
+  background: black;
+  color: white;
+  border: 1px solid white;
+  padding: 5px 15px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+/* ====== Sidebar ====== */
+.sidebar h3, .sidebar h4 {
+  margin: 10px 0 5px;
+}
+
+.sidebar em {
+  font-style: italic;
+  color: hotpink;
+}
+
+.sidebar a {
+  color: white;
+  text-decoration: underline;
+}
+
+.sidebar input[type="text"] {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+.sidebar input[type="submit"],
+.search-form button {
+  padding: 5px;
+  background: hotpink;
+  border: none;
+  cursor: pointer;
+  color: black;
+}
+
+/* ====== Search ====== */
+.search-form input {
+  padding: 5px;
+  width: 70%;
+}
+
+/* ====== Buttons (generic) ====== */
+button {
+  padding: 8px 16px;
+  background-color: rgb(25, 6, 15);
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+/* ====== Footer ====== */
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 12px;
+  color: #ccc;
+  border-top: 1px solid #333;
+  margin-top: 20px;
+}
